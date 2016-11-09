@@ -1,0 +1,176 @@
+html{
+  background-color: #FFFFFF;
+}
+.container{
+  max-width:960px;
+  max-height: 2000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*header*/
+.logo img{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+
+}
+
+.right{
+  margin-top: 45px;
+  float:right;
+}
+/*header*/
+.site-nav2{
+  margin-left: 113px;
+  margin-bottom: -40px;
+}
+.site-nav2 ul{
+margin-right: 0px;
+}
+.site-nav2 li{
+  list-style: none;
+margin-right: -30px;
+display: inline;
+font-size: 18px;
+  color: #A29D84;
+  font-family: monospace;
+  padding:10px 10px;
+  float: left;
+
+}
+
+.site-nav2 a {
+
+  text-align: center;
+
+	display: block;
+	color:#A29D84;
+	text-decoration:none;
+  font-family: Arial Black;
+	padding: 15px 20px;
+  margin: 0px;
+	//border: 3px solid white;
+	border-bottom: none;
+}
+/*SubMenu Style*/
+.site-nav2 li ul {
+  list-style: none;
+	position: absolute;
+	background-color: #FFFFFF;
+	display: none;
+  padding-left: 0px;
+ border-radius: 5px;
+}
+.site-nav2 li:hover ul {
+margin-top: -18px;
+  display: block;
+}
+.site-nav2 li li {
+	float: none;
+	margin-right: 0px;
+  margin-top: 0px;
+}
+.site-nav2 li li a:hover {
+	background-color: #487274;
+	color: #E8E9F3;
+}
+
+
+.topic{
+  color: #868169;
+  font-size: 20px;
+}
+
+.main-area{
+  width: 940px;
+
+text-align: center;
+}
+
+
+
+.main-area iframe{
+
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+
+}
+
+.main-area h1{
+
+  margin-top: 25px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-family: monospace;
+  color: #868169;
+}
+.main-area p{
+
+  margin-top: 25px;
+  margin-bottom: 17px;
+  font-size: 16px;
+  font-family:monospace;
+  color: #a5a59b;
+
+}
+
+.main-area img{
+
+width: 230px;
+margin-left: 2px;
+
+
+}
+
+
+.all{
+
+  width: 960px;
+
+}
+
+.a{
+width: 220px;
+font-family: monospace;
+color: #a5a59b;
+text-align: center;
+margin-left: 9px;
+display: inline;
+float: left;
+}
+
+.b{
+  width: 220px;
+  font-family: monospace;
+  color: #a5a59b;
+  text-align: center;
+  margin-right: 21px;
+  display: inline;
+  float: right;
+}
+
+
+/*footer*/
+footer{
+  max-height: 60px;
+  margin-top: 34px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #A29D84;
+  font-size: 14px;
+  font-family: monospace;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+
+
+.clear:after{
+  content: "";
+  display: block;
+  clear: both;
+}
